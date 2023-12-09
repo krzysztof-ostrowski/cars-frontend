@@ -36,3 +36,151 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 800px; /* Ustaw maksymalną szerokość dla kontenera */
+  margin: 0 auto; /* Wycentruj kontener */
+  padding: 20px;
+  background-color: #fff; /* Ustaw tło kontenerów na białe */
+}
+
+.header {
+  text-align: center; /* Wycentruj tekst nagłówka */
+  margin-bottom: 40px; /* Dodaj margines poniżej nagłówka */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Dodaj margines poniżej każdej grupy formularza */
+}
+
+.form-group label {
+  display: block; /* Ustaw etykiety jako blok, aby były nad polami tekstowymi */
+  margin-bottom: 5px; /* Dodaj margines poniżej etykiet */
+}
+
+.form-group input {
+  width: calc(
+    100% - 22px
+  ); /* Szerokość inputa na 100% minus marginesy/paddingi */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  text-align: right; /* Wyrównaj przyciski do prawej strony */
+}
+
+.list-group {
+  margin-top: 40px; /* Dodaj margines powyżej listy */
+}
+
+.list-group-item {
+  display: flex; /* Użyj flexboxa do wyrównania tekstu i przycisków */
+  align-items: center; /* Wycentruj elementy w pionie */
+  justify-content: space-between; /* Rozłóż przyciski równomiernie */
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+/* Stylowanie przycisków */
+.button-group button {
+  margin-left: 10px;
+}
+
+/* Dodatkowe style dla przycisków - edytuj je wedle uznania */
+.edit-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+/* Stylowanie przycisku formularza */
+.submit-button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #4cae4c;
+}
